@@ -43,3 +43,9 @@ wish> cmd1 & cmd2 args1 args2 & cmd3 args1
 
 each of these commands will run with their respective parameters in parallel
 instead of waiting for one to finish before running the next command
+
+
+To test, download the file and simply compile and run :
+
+g++ wish.cpp -Wall -Werror -o wish
+./wish
